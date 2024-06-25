@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf src/.observablehq/cache",
+    "build": "rimraf dist && observable build",
+    "dev": "observable preview --host 0.0.0.0 --port 3000",
+    "deploy": "observable deploy",
+    "observable": "observable"
+  },
+  "dependencies": {
+    "@observablehq/framework": "^1.7.0",
+    "d3-dsv": "^3.0.1",
+    "d3-time-format": "^4.1.0",
+    "tabulator-tables": "^6.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsdoc": "^48.2.3",
+    "globals": "^15.1.0",
+    "jsdoc": "^4.0.3",
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
