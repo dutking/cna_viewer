@@ -21,6 +21,6 @@ Run run.sh script if on Linux.
 
 ## To install new package from container:
 
-1. Enter to container in interactive mode: docker exec -it mega-cna-viewer_observable_1 bash
+1. Enter to container in interactive mode: docker exec -it cna-viewer_observable_1 bash
 2. Install package.
 3. Restart container.
